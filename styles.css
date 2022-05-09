@@ -1,0 +1,30 @@
+.box-container {
+    display: flex;
+} 
+
+/*
+https://stackoverflow.com/questions/4847850/is-it-possible-to-define-constants-in-css
+*/
+
+.box {
+    max-height: 100px;
+    height: 100px;
+    width: 100px;    
+    margin: 10px;
+   	border: solid 3px black;
+    color: white;
+    text-align: center;
+    /* I don't know how to vertically center this text :shrug: */
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
